@@ -1,6 +1,6 @@
 # 0x03. Shell, init files, variables and expansions
 
-Project done during **Full Stack Software Engineering studies** at **ALX**. IIt aims to learn about what is entry point, basics commands (puts, printf, putchar), compilation process with gcc in **C language**.
+Project done during **Full Stack Software Engineering studies** at **ALX**. It aims to learn about what is entry point, basics commands (puts, printf, putchar), compilation process with gcc in **C language**.
 
 ## Technologies
 * Scripts written in Bash 5.0.17(1)
@@ -26,7 +26,6 @@ Project done during **Full Stack Software Engineering studies** at **ALX**. IIt 
 
 7. [Intel](./100-intel) : Script that generates the assembly code in Intel syntax of a
   C file saved in the variable $CFILE; The output file is named the same as the C file, but with the extension `.s` instead of `c`.
-
 8. [UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity](./101-quote.c) : C program that prints exactly `and that piece of art is
   useful" - Dora Korpar, 2015-10-19`, followed by a new line, to the standard error,
   without using any functions listed in the NAME sesction of the man(3) `printf` or man(3)
