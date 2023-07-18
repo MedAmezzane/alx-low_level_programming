@@ -16,7 +16,6 @@
 
 void times_table(void);
 {
-
 	int num1, num2, prod;
 
 	for (num1 = 0; num1 < 10; num1++)
@@ -42,9 +41,9 @@ void times_table(void);
 				_putchar(',');
 				_putchar(' ');
 				/*get the first digit*/
-				_putchar((k / 10) + '0');
+				_putchar((prod / 10) + '0');
 				/*get the second digit*/
-				_putchar((k % 10) + '0');
+				_putchar((prod % 10) + '0');
 			}
 		}
 		_putchar('\n');
