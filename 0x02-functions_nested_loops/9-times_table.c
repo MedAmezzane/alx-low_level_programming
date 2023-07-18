@@ -14,7 +14,7 @@
  *
  */
 
-void times_table(void);
+void times_table(void)
 {
 	int num1, num2, prod;
 
