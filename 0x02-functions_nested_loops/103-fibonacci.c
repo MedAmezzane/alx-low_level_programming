@@ -22,7 +22,7 @@ int main(void)
 		f1 = f2;
 		if (f2 % 2 == 0)
 		{
-			sum += n3
+			sum += n3;
 		}
 	}
 	printf("%lu\n", sum);
