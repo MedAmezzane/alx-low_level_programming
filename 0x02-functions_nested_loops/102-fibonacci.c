@@ -18,7 +18,7 @@ int main(void)
 
 	printf("%lu, %lu ,", f0, f1);
 
-	for (i = 0; i < 50; i++)
+	for (i = 2; i < 50; i++)
 	{
 		sum = f1 + f0;
 		printf("%lu", sum);
