@@ -1,6 +1,6 @@
-# 0x03. Shell, init files, variables and expansions
+# 0x01. C - Variables, if, else, while
 
-Project done during **Full Stack Software Engineering studies** at **ALX**. IIt aims to learn about arithmetic operators, relational operators, boolean operators, comments, declaring variables and loops in **C language**.
+Project done during **Full Stack Software Engineering studies** at **ALX**. It aims to learn about arithmetic operators, relational operators, boolean operators, comments, declaring variables and loops in **C language**.
 
 ## Technologies
 * Scripts written in Bash 5.0.17(1)
