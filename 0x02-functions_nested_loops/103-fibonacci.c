@@ -15,7 +15,7 @@ int main(void)
 {
 	unsigned long f0 = 1, f1 = 2, f2 = 0, sum = 0;
 
-	while (f2 < 4000000)
+	while (f2 <= 4000000)
 	{
 		f2 = f1 + f0;
 		f0 = f1;
