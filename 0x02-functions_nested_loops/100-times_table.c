@@ -23,45 +23,35 @@ void print_times_table(int n)
 	{
 		for (num1 = 0; num1 < n + 1; num1++)
 		{
+			_putchar('0');
 			for (num2 = 0; num2 < n + 1; num2++)
 			{
 				prod = num1 * num2;
-			if (num2 == 0)
-			{
-				_putchar(prod + '0');
-			}
-			if (prod < 10 && num2 != 0)
-			/*put three spaces if product is a single number*/
-			{
 				_putchar(',');
 				_putchar(' ');
-				_putchar(' ');
-				_putchar(' ');
-				_putchar(prod + '0');
-			}
-			else if (prod >= 10 && prod <= 99)
-			/*put two spaces if product is a two-digits number*/
-			{
-				_putchar(',');
-				_putchar(' ');
-				_putchar(' ');
-				/*get the first digit*/
-				_putchar((prod / 10) + '0');
-				/*get the second digit*/
-				_putchar((prod % 10) + '0');
-			}
-			else if (prod >= 100)
-			/*put one space if product is a three-digits number*/
-			{
-				_putchar(',');
-				_putchar(' ');
-				/*get the first digit*/
-				_putchar((prod / 100) + '0');
-				/*get the second digit*/
-				_putchar(((prod / 10)) % 10 + '0');
-				/*get the third digit*/
-				_putchar(prod % 10 + '0');
-			}
+				if (prod < 10 && num2 != 0)
+				{
+					_putchar(' ');
+					_putchar(' ');
+					_putchar(prod + '0');
+				}
+				else if (prod >= 10 && prod <= 99)
+				{
+					_putchar(' ');
+					/*get the first digit*/
+					_putchar((prod / 10) + '0');
+					/*get the second digit*/
+					_putchar((prod % 10) + '0');
+				}
+				else if (prod >= 100)
+				{
+					/*get the first digit*/
+					_putchar((prod / 100) + '0');
+					/*get the second digit*/
+					_putchar(((prod / 10)) % 10 + '0');
+					/*get the third digit*/
+					_putchar(prod % 10 + '0');
+				}
 			}
 			_putchar('\n');
 		}
