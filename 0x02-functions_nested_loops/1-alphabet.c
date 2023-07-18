@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
+ * print_alphabet - Entry point
  *
  * Description:
  * Use the custom `_putchar` function to prints the alphabets in lowercase,
