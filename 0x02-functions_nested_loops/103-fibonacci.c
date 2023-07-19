@@ -13,7 +13,8 @@
  */
 int main(void)
 {
-	unsigned long f0 = 1, f1 = 2, f2 = 0, sum = 0;
+	unsigned long f0 = 1, f1 = 2, f2 = 0;
+	unsigned long sum = f1; /* initialised by the even number f1 */
 
 	while (f2 <= 4000000)
 	{
