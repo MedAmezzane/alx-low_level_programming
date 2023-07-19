@@ -45,6 +45,7 @@ int main(void)
 		f1_half1 = sum_half1;
 		f1_half2 = sum_half2;
 	}
+	printf("\n");
 
 	return (0);
 }
