@@ -1,4 +1,4 @@
-# 0x03. Shell, init files, variables and expansions
+#  0x00. C - Hello, World
 
 Project done during **Full Stack Software Engineering studies** at **ALX**. It aims to learn about what is entry point, basics commands (puts, printf, putchar), compilation process with gcc in **C language**.
 
