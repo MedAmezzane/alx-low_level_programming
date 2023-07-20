@@ -29,19 +29,19 @@ Project done during **Full Stack Software Engineering studies** at **ALX**. It a
 5. [Numbers constitute the only universal language](./5-more_numbers.c): C function that prints the numbers `0` to `14`, followed by a new line, ten times, only using `_putchar` three times.
 
 6. [The shortest distance between two points is a straight line](./6-print_line.c): C function that draws a straight line in the terminal using the character `_`, followed by a new line.
-  + If the function receives length input of zero or less, only a new line is printed.
+      + If the function receives length input of zero or less, only a new line is printed.
 
 7. [I feel like I am diagonally parked in a parallel universe](./7-print_diagonal.c): C function that draws a diagonal line in the terminal using the `\` character, followed by a new line.
-  + If the function receives length input of zero or less, only a new line is printed.
+      + If the function receives length input of zero or less, only a new line is printed.
 
 8. [You are so much sunshine in every square inch](./8-print_square.c): C function that prints a square using the `#` character, followed by a new line.
-  + If the function receives size input of zero or less, only a new line is printed.
+      + If the function receives size input of zero or less, only a new line is printed.
 
 9. [Fizz_Buzz](./9-fizz_buzz.c): C program that prints the numbers from `1` to `100`, but for multiples of three, `Fizz` is printed instead of the number, for multiples of five, `Buzz`, and for multiples of both three and five, `FizzBuzz`.
-  + Each number or word is separated by a space.
+      + Each number or word is separated by a space.
 
 10. [Triangles](./10-print_triangle.c): C function that prints a triangle using the `#` character, followed by a new line.
-  + If the function receives size input of zero or less, only a new line is printed.
+      + If the function receives size input of zero or less, only a new line is printed.
 
 
 ### Advanced tasks
