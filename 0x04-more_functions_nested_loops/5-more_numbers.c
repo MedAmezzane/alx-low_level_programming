@@ -16,12 +16,12 @@ void more_numbers(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		for (i = 0; i < 15; i++)
+		for (j = 0; j < 15; j++)
 		{
 			/* print 2-digit number */
-			if (i > 9)
-				putchar('0' + (i / 10));
-			putchar('0' + (i % 10));
+			if (j > 9)
+				_putchar('0' + (j / 10));
+			_putchar('0' + (j % 10));
 		}
 		_putchar('\n');
 	}
