@@ -5,6 +5,12 @@
  * search for the substring needle.
  * @needle: A pointer to the null-terminated substring that needs to
  * be found in the haystack string.
+ *
+ * Description:
+ * A custom implementation of the standard library function strstr,
+ * which searches for the first occurrence of a substring (needle)
+ * within a given string (haystack).
+ *
  * Return:
  * If the needle substring is found in the haystack string, the
  * function returns a pointer to the location of the first character of
