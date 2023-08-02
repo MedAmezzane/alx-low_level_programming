@@ -21,14 +21,16 @@
  */
 char *_strchr(char *s, char c)
 {
-	while (*s)
+	int index;
+
+	for (index = 0; s[index] != '\0'; index++)
 	{
-		if (*s == c)
-		{
-			return ((char *)s);
-		}
-		s++;
+		if (s[index] == c)
+			return (&s[index]);
 	}
+
+	if (s[index] == c)
+		return (&s[index]);
 
 	return (NULL);
 }
