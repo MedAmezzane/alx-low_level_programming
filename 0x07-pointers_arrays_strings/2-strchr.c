@@ -21,11 +21,9 @@
  */
 char *_strchr(char *s, char c)
 {
-	const unsigned char target = (unsigned char)c;
-
 	while (*s)
 	{
-		if (*s == target)
+		if (*s == c)
 		{
 			return ((char *)s);
 		}
