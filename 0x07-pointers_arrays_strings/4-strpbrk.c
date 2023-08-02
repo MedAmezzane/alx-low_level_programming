@@ -19,17 +19,21 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
-	int i;
+	unsigned int i, j;
 
-	while (*s)
+	for (i = 0; s[i]; i++)
 	{
-		for (i = 0; accept[i]; i++)
+		for (j = 0; accept[j]; j++)
 		{
-			if (*s == accept[i])
-				return (s);
+			if (s[i] == accept[j])
+			{
+				break;
+			}
 		}
-		s++;
+		if (accept[j] != '\0')
+		{
+			return (&s[i]);
+		}
 	}
-
 	return (0);
 }
