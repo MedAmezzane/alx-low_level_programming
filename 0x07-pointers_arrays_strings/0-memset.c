@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * infinite_add - Entry point
- * @s: A pointer to the starting address of the memory block that needs to be filled.
+ * _memset - Entry point
+ * @s: A pointer to the starting address of the memory block that
+ * needs to be filled.
  * @b: The value to be written to each byte of the memory block.
  * @n: The number of bytes to be filled with the value b.
  *
