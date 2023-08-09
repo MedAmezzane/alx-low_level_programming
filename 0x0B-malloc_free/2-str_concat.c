@@ -26,7 +26,7 @@ char *str_concat(char *s1, char *s2)
 	for (i = 0; s1[i] || s2[i]; i++)
 		total_length++;
 
-	result_str = malloc(sizeof(char) * (total_length + 1));
+	result_str = malloc(sizeof(char) * total_length);
 
 	/* Return NULL if memory allocation fails */
 	if (result_str == NULL)
