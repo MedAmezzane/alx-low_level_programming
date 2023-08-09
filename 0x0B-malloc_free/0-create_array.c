@@ -7,7 +7,7 @@
  *
  * Description: Allocates memory for an array of characters and initializes
  *              each element with the given character.
- * Returns: A pointer to the newly allocated array, or NULL if memory
+ * Return: A pointer to the newly allocated array, or NULL if memory
  * allocation fails or if size is 0.
  *
  * Author: MedAMEZZANE
