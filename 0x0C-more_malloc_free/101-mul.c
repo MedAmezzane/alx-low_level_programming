@@ -1,6 +1,13 @@
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
+
+int get_length(char *str);
+char *initialize_xarray(int size);
+char *skip_zeroes(char *str);
+void calculate_product(char *prod, char *mult, int digit, int zeroes);
+void add_numbers(char *final_prod, char *next_prod, int next_len);
+
 /**
  * get_length - Computes the length of a null-terminated string.
  * @str: The input string.
