@@ -11,8 +11,8 @@
  */
 struct dog
 {
-	tab char *name;
-	tab float age;
-	tab char *owner;
+	char *name;
+	float age;
+	char *owner;
 };
 #endif /* _DOG_H_ */
