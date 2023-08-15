@@ -33,9 +33,6 @@ void init_dog(struct dog *d, char *name, float age, char *owner);
  */
 void print_dog(struct dog *d);
 /**
- * dog_t - Typedef for struct dog.
- */
-/**
  * new_dog - Creates a new dog structure.
  * @name: Name of the dog.
  * @age: Age of the dog.
