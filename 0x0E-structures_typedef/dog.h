@@ -45,4 +45,11 @@ typedef struct dog dog_t;
  * Return: Pointer to the newly created dog structure.
  */
 dog_t *new_dog(char *name, float age, char *owner);
+/**
+ * free_dog - Frees memory allocated for a dog structure.
+ * @d: Pointer to the dog structure to be freed.
+ *
+ * Description: This function releases the memory used by a dog structure.
+ */
+void free_dog(dog_t *d);
 #endif /* _DOG_H_ */
