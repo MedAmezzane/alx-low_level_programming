@@ -25,5 +25,12 @@ struct dog
  * Description: This function initializes a dog structure with given attributes.
  */
 void init_dog(struct dog *d, char *name, float age, char *owner);
+/**
+ * print_dog - Prints the information of a dog.
+ * @d: Pointer to the dog structure to be printed.
+ *
+ * Description: This function prints the attributes of a dog structure.
+ */
+void print_dog(struct dog *d);
 
 #endif /* _DOG_H_ */
