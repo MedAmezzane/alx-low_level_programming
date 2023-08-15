@@ -22,7 +22,7 @@ struct dog
  * @age: Age of the dog.
  * @owner: Owner's name of the dog.
  *
- * Description: This function initializes a dog structure with given attributes.
+ * Description: This function initializes a dog structure with given attributes
  */
 void init_dog(struct dog *d, char *name, float age, char *owner);
 /**
