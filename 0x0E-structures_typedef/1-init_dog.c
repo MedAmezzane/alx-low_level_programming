@@ -8,7 +8,8 @@
  * @age: Age of the dog.
  * @owner: Owner's name of the dog.
  *
- * Description: This function initializes a dog structure with the given attributes.
+ * Description: This function initializes a dog structure with the given
+ *				attributes.
  *
  * Author: MedAMEZZANE
  */
