@@ -1,6 +1,6 @@
 #include <stdarg.h>
 #include <stdio.h>
-#include "variadic_functions.h">
+#include "variadic_functions.h"
 
 /**
  * print_strings - Prints a variable number of strings separated by a string.
@@ -9,8 +9,8 @@
  * @...: Variable list of strings to be printed.
  *
  * Description: This function prints a series of strings separated by the given
- * separator string, followed by a newline character. If a string is NULL, "(nil)"
- * is printed instead.
+ * separator string, followed by a newline character. If a string is NULL,
+ * "(nil)" is printed instead.
  *
  * Author: MedAMEZZANE
  */
