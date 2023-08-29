@@ -5,10 +5,10 @@
  * Return: Sum of all integers in the list.
  *
  * Description:
- * This function calculates the sum of all integer values stored in the nodes of
- * a linked list. It starts at the head node and iterates through the list while
- * adding the integer value of each node to the running sum. The final sum is
- * returned as the result.
+ * This function calculates the sum of all integer values stored in the nodes
+ * of a linked list. It starts at the head node and iterates through the list
+ * while adding the integer value of each node to the running sum. The final
+ * sum is returned as the result.
  *
  * Author: MedAMEZZANE
  */
