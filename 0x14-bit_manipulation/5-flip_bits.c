@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * flip_bits - Count the number of bits needed to flip to transform one number to another.
+ * flip_bits - Count the number of bits needed to flip to transform one number
+ * to another.
  * @n: The first unsigned long int.
  * @m: The second unsigned long int.
  * Return: The number of bits needed to flip.
@@ -9,8 +10,8 @@
  * This function counts the number of bits that need to be flipped in order to
  * transform one unsigned long int (n) to another (m). The XOR operation (^)
  * is used to find the differing bits between the two numbers. Then, a loop
- * iterates through each bit position, and the count of differing bits is accumulated.
- * The function returns the total count of differing bits.
+ * iterates through each bit position, and the count of differing bits is
+ * accumulated. The function returns the total count of differing bits.
  *
  * Author: MedAMEZZANE
  */
