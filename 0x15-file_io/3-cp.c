@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * main - Copy the content of one file to another.
  * @argc: The number of command-line arguments.
