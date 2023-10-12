@@ -8,10 +8,10 @@
  */
 size_t dlistint_len(const dlistint_t *h)
 {
-    size_t i;  /*Variable to count the number of nodes.*/
+	size_t i;  /*Variable to count the number of nodes.*/
 
-    for (i = 0; h != NULL; i++)
-        h = h->next;  /*Move to the next node.*/
+	for (i = 0; h != NULL; i++)
+		h = h->next;  /*Move to the next node.*/
 
-    return (i);  /*Return the total number of nodes counted.*/
+	return (i);  /*Return the total number of nodes counted.*/
 }
