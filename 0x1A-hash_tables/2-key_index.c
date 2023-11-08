@@ -9,6 +9,9 @@
  */
 unsigned long int key_index(const unsigned char *key, unsigned long int size)
 {
-	/* Use the djb2 hash function to compute the hash value and then mod it by the size */
+	/*
+	* Use the djb2 hash function to compute the hash value and then mod it by
+	* the size
+	*/
 	return (hash_djb2(key) % size);
 }
